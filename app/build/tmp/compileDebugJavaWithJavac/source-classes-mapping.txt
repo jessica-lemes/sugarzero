@@ -1,0 +1,2 @@
+com/projetoIntegrador/cuidese/BuildConfig.java
+ com.projetoIntegrador.cuidese.BuildConfig
