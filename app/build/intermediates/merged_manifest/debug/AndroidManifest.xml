@@ -21,21 +21,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.CuideSe" >
-        <activity android:name="com.projetoIntegrador.cuidese.view.PrincipalView" >
+        android:theme="@style/Theme.SugarZero" >
+        <activity android:name="com.projetoIntegrador.sugarzero.view.PrincipalView" >
         </activity>
-        <activity android:name="com.projetoIntegrador.cuidese.view.RegistroGlicemiaView" />
-        <activity android:name="com.projetoIntegrador.cuidese.view.Splash" >
+        <activity android:name="com.projetoIntegrador.sugarzero.view.RegistroGlicemiaView" />
+        <activity android:name="com.projetoIntegrador.sugarzero.view.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.projetoIntegrador.cuidese.view.LoginView" />
-        <activity android:name="com.projetoIntegrador.cuidese.view.CadastroView" />
-        <activity android:name="com.projetoIntegrador.cuidese.view.GraficoView" />
-        <activity android:name="com.projetoIntegrador.cuidese.view.ControleView" />
+        <activity android:name="com.projetoIntegrador.sugarzero.view.LoginView" />
+        <activity android:name="com.projetoIntegrador.sugarzero.view.CadastroView" />
+        <activity android:name="com.projetoIntegrador.sugarzero.view.GraficoView" />
+        <activity android:name="com.projetoIntegrador.sugarzero.view.ControleView" />
     </application>
 
 </manifest>

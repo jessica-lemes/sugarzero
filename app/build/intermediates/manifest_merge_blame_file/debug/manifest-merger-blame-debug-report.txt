@@ -6,69 +6,69 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
+8-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
+9-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:5:5-66
-11-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:6:5-79
-12-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:6:22-76
+12-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:6:22-76
 13
 14    <application
-14-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:8:5-29:19
+14-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:8:5-29:19
 15        android:allowBackup="true"
-15-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:9:9-35
+15-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:9:9-35
 16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 16-->[androidx.core:core:1.6.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\ba1d9cdeace3374a3d1f11cb4c3f7039\core-1.6.0\AndroidManifest.xml:24:18-86
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:icon="@mipmap/ic_launcher"
-19-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:10:9-43
+19-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:10:9-43
 20        android:label="@string/app_name"
-20-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:11:9-41
+20-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:11:9-41
 21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:12:9-54
+21-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:12:9-54
 22        android:supportsRtl="true"
-22-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:13:9-35
+22-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:13:9-35
 23        android:testOnly="true"
-24        android:theme="@style/Theme.CuideSe" >
-24-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:14:9-45
-25        <activity android:name="com.projetoIntegrador.cuidese.view.PrincipalView" >
-25-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:15:9-16:20
-25-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:15:19-53
+24        android:theme="@style/Theme.SugarZero" >
+24-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:14:9-47
+25        <activity android:name="com.projetoIntegrador.sugarzero.view.PrincipalView" >
+25-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:15:9-16:20
+25-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:15:19-84
 26        </activity>
-27        <activity android:name="com.projetoIntegrador.cuidese.view.RegistroGlicemiaView" />
-27-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:17:9-63
-27-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:17:19-60
-28        <activity android:name="com.projetoIntegrador.cuidese.view.Splash" >
-28-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:18:9-24:20
-28-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:18:19-46
+27        <activity android:name="com.projetoIntegrador.sugarzero.view.RegistroGlicemiaView" />
+27-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:17:9-94
+27-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:17:19-91
+28        <activity android:name="com.projetoIntegrador.sugarzero.view.Splash" >
+28-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:18:9-24:20
+28-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:18:19-77
 29            <intent-filter>
-29-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:19:13-23:29
+29-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:19:13-23:29
 30                <action android:name="android.intent.action.MAIN" />
-30-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:20:17-69
-30-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:20:25-66
+30-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:20:17-69
+30-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:20:25-66
 31
 32                <category android:name="android.intent.category.LAUNCHER" />
-32-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:22:17-77
-32-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:22:27-74
+32-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:22:17-77
+32-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:22:27-74
 33            </intent-filter>
 34        </activity>
-35        <activity android:name="com.projetoIntegrador.cuidese.view.LoginView" />
-35-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:25:9-61
-35-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:25:19-49
-36        <activity android:name="com.projetoIntegrador.cuidese.view.CadastroView" />
-36-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:26:9-64
-36-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:26:19-52
-37        <activity android:name="com.projetoIntegrador.cuidese.view.GraficoView" />
-37-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:27:9-54
-37-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:27:19-51
-38        <activity android:name="com.projetoIntegrador.cuidese.view.ControleView" />
-38-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:28:9-64
-38-->C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:28:19-52
+35        <activity android:name="com.projetoIntegrador.sugarzero.view.LoginView" />
+35-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:25:9-92
+35-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:25:19-80
+36        <activity android:name="com.projetoIntegrador.sugarzero.view.CadastroView" />
+36-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:26:9-95
+36-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:26:19-83
+37        <activity android:name="com.projetoIntegrador.sugarzero.view.GraficoView" />
+37-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:27:9-85
+37-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:27:19-82
+38        <activity android:name="com.projetoIntegrador.sugarzero.view.ControleView" />
+38-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:28:9-95
+38-->C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:28:19-83
 39    </application>
 40
 41</manifest>

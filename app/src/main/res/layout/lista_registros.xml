@@ -18,32 +18,42 @@
             android:padding="08dp">
 
             <TextView
-                android:id="@+id/textViewData"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:text="Data"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
                 android:id="@+id/textViewHora"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:drawableStart="@drawable/ic_baseline_access_time_24"
+                android:drawablePadding="4dp"
                 android:text="Hora"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/guideline3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_baseline_date"
+                android:drawablePadding="4dp"
+                android:text="Data"
                 android:textSize="18sp"
-                app:layout_constraintStart_toEndOf="@+id/textViewData"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/textViewGlicemia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:drawableStart="@drawable/ic_baseline_gota_24"
+                android:drawablePadding="4dp"
                 android:text="Glicemia:"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -55,7 +65,7 @@
                 android:id="@+id/textViewValor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginStart="4dp"
                 android:layout_marginTop="16dp"
                 android:text="100"
                 android:textSize="18sp"
@@ -70,32 +80,26 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
+                android:drawableStart="@drawable/ic_baseline_no_food"
+                android:drawablePadding="4dp"
                 android:text="Jejum:"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/textView3"
-                app:layout_constraintTop_toBottomOf="@+id/textViewHora"
-                app:layout_constraintVertical_bias="0.333" />
+                app:layout_constraintStart_toStartOf="@+id/guideline3"
+                app:layout_constraintTop_toBottomOf="@+id/textViewHora" />
 
             <TextView
                 android:id="@+id/textViewSeJejum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_marginEnd="16dp"
                 android:text="Sim"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="@+id/textViewJejum"
-                app:layout_constraintStart_toEndOf="@+id/textViewJejum" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_baseline_health_and_safety_24" />
+                app:layout_constraintHorizontal_bias="0.204"
+                app:layout_constraintStart_toEndOf="@+id/textViewJejum" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -105,6 +109,13 @@
                 android:text="mg/dl"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textViewValor"
                 app:layout_constraintStart_toEndOf="@+id/textViewValor" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
 
             <!--<TextView
                 android:id="@+id/textViewAnotacao"

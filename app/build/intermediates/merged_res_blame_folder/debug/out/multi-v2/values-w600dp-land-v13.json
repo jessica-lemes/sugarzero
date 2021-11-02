@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Projetos\\CuideSe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+            "outputFile": "C:\\Projetos\\AppSugarZero\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jessi\\.gradle\\caches\\transforms-2\\files-2.1\\c78e2c0af5afa33232d9367e0579742a\\material-1.4.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",

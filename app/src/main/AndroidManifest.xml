@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.projetoIntegrador.cuidese">
+    package="com.projetoIntegrador.sugarzero">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -11,21 +11,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CuideSe">
-        <activity android:name=".view.PrincipalView">
+        android:theme="@style/Theme.SugarZero">
+        <activity android:name="com.projetoIntegrador.sugarzero.view.PrincipalView">
         </activity>
-        <activity android:name=".view.RegistroGlicemiaView" />
-        <activity android:name=".view.Splash">
+        <activity android:name="com.projetoIntegrador.sugarzero.view.RegistroGlicemiaView" />
+        <activity android:name="com.projetoIntegrador.sugarzero.view.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.LoginView"></activity>
-        <activity android:name=".view.CadastroView"></activity>
-        <activity android:name=".view.GraficoView" />
-        <activity android:name=".view.ControleView"></activity>
+        <activity android:name="com.projetoIntegrador.sugarzero.view.LoginView"></activity>
+        <activity android:name="com.projetoIntegrador.sugarzero.view.CadastroView"></activity>
+        <activity android:name="com.projetoIntegrador.sugarzero.view.GraficoView" />
+        <activity android:name="com.projetoIntegrador.sugarzero.view.ControleView"></activity>
     </application>
 
 </manifest>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\a8e78915166aa0074d6b796b6207670d\core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\c78e2c0af5afa33232d9367e0579742a\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\1fe1ec55a9253d5d6c22903e15b4cad0\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -40,33 +40,33 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\jessi\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\006f75501ee49bd5eb21e79e4363589a\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\76cf6e48a6f215ca02fb8be5d7ec1d75\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\2309c301d9c715399ce59dfc6758a6c1\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:2:1-31:12
-		INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:2:1-31:12
-		INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:2:1-31:12
+		INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:8:5-29:19
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:8:5-29:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\c78e2c0af5afa33232d9367e0579742a\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\c78e2c0af5afa33232d9367e0579742a\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\1fe1ec55a9253d5d6c22903e15b4cad0\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -78,59 +78,59 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\je
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\ba1d9cdeace3374a3d1f11cb4c3f7039\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:14:9-45
-activity#com.projetoIntegrador.cuidese.view.PrincipalView
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:15:9-16:20
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:14:9-47
+activity#com.projetoIntegrador.sugarzero.view.PrincipalView
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:15:9-16:20
 	android:name
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:15:19-53
-activity#com.projetoIntegrador.cuidese.view.RegistroGlicemiaView
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:17:9-63
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:15:19-84
+activity#com.projetoIntegrador.sugarzero.view.RegistroGlicemiaView
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:17:9-94
 	android:name
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:17:19-60
-activity#com.projetoIntegrador.cuidese.view.Splash
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:18:9-24:20
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:17:19-91
+activity#com.projetoIntegrador.sugarzero.view.Splash
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:18:19-46
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:18:19-77
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:22:27-74
-activity#com.projetoIntegrador.cuidese.view.LoginView
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:25:9-61
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:22:27-74
+activity#com.projetoIntegrador.sugarzero.view.LoginView
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:25:9-92
 	android:name
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:25:19-49
-activity#com.projetoIntegrador.cuidese.view.CadastroView
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:26:9-64
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:25:19-80
+activity#com.projetoIntegrador.sugarzero.view.CadastroView
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:26:9-95
 	android:name
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:26:19-52
-activity#com.projetoIntegrador.cuidese.view.GraficoView
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:27:9-54
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:26:19-83
+activity#com.projetoIntegrador.sugarzero.view.GraficoView
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:27:9-85
 	android:name
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:27:19-51
-activity#com.projetoIntegrador.cuidese.view.ControleView
-ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:28:9-64
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:27:19-82
+activity#com.projetoIntegrador.sugarzero.view.ControleView
+ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:28:9-95
 	android:name
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml:28:19-52
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml:28:19-83
 uses-sdk
-INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
-INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
+INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
+INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
 MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\a8e78915166aa0074d6b796b6207670d\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\a8e78915166aa0074d6b796b6207670d\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\c78e2c0af5afa33232d9367e0579742a\material-1.4.0\AndroidManifest.xml:20:5-44
@@ -203,13 +203,13 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\jessi\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\76cf6e48a6f215ca02fb8be5d7ec1d75\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\2309c301d9c715399ce59dfc6758a6c1\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\jessi\.gradle\caches\transforms-2\files-2.1\2309c301d9c715399ce59dfc6758a6c1\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
-INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
+INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
+INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
-		ADDED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Projetos\CuideSe\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
+		ADDED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Projetos\AppSugarZero\app\src\main\AndroidManifest.xml

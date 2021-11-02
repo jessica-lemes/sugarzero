@@ -7,102 +7,101 @@
     tools:context=".view.PrincipalView">
 
     //Adicionando toolbar
-    <include layout="@layout/toolbar" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar" />
 
     <TextView
         android:id="@+id/tvLogo"
-        android:layout_width="0dp"
-        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="0dp"
         android:gravity="center"
-        android:text="cuideSe"
-        android:textColor="@color/green"
+        android:text="SugarZer0"
+        android:textAlignment="center"
+        android:textColor="@color/primary_orange"
         android:textSize="34sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/ivHistorico"
+        android:textStyle="bold|italic"
+        app:drawableStartCompat="@drawable/ic_baseline_water_drop_24"
+        app:layout_constraintBottom_toTopOf="@+id/ivRegistro"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/include" />
+
 
     <ImageView
         android:id="@+id/ivRegistro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/registro"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/my_border"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/guideline2"
-        app:layout_constraintHorizontal_bias="0.7"
+        android:backgroundTint="@color/primary_orange"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="@+id/guidelineHorizontal" />
 
     <TextView
         android:id="@+id/tvRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_registro_novo"
+        android:drawablePadding="8dp"
         android:text="Registro diário"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivRegistro"
         app:layout_constraintEnd_toEndOf="@+id/ivRegistro"
         app:layout_constraintStart_toStartOf="@+id/ivRegistro"
-        app:layout_constraintTop_toBottomOf="@+id/ivRegistro" />
+        app:layout_constraintTop_toTopOf="@+id/ivRegistro" />
 
     <ImageView
         android:id="@+id/ivHistorico"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/historico"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/my_border"
-        tools:layout_editor_absoluteX="60dp"
-        tools:layout_editor_absoluteY="188dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintTop_toTopOf="parent"/>
-
-
-    <TextView
-        android:id="@+id/tvHistorico"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Histórico"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/ivHistorico"
-        app:layout_constraintStart_toStartOf="@+id/ivHistorico"
-        app:layout_constraintTop_toBottomOf="@+id/ivHistorico" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5" />
-
-    <TextView
-        android:id="@+id/tvDica"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="64dp"
-        android:background="@color/green"
-        android:drawableStart="@drawable/ic_baseline_lightbulb_24"
-        android:gravity="center"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
-        android:text=""
-        android:textColor="@color/white"
-        android:textSize="16dp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ivRegistro"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.29000002" />
+
+    <TextView
+        android:id="@+id/tvHistorico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_historico_novo"
+        android:drawablePadding="8dp"
+        android:text="Histórico"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivHistorico"
+        app:layout_constraintEnd_toEndOf="@+id/ivHistorico"
+        app:layout_constraintStart_toStartOf="@+id/ivHistorico"
+        app:layout_constraintTop_toTopOf="@+id/ivHistorico" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Projetos\\CuideSe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+            "outputFile": "C:\\Projetos\\AppSugarZero\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jessi\\.gradle\\caches\\transforms-2\\files-2.1\\6d782081d97e8f420d203a315c65d750\\appcompat-1.3.1\\res\\values-sv\\values-sv.xml",

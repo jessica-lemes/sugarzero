@@ -7,14 +7,17 @@
     tools:context=".view.CadastroView">
 
     <TextView
-        android:id="@+id/tvCuideSe"
-        android:layout_width="0dp"
+        android:id="@+id/tvLogo"
+        android:layout_width="wrap_content"
         android:layout_height="200dp"
+        android:drawablePadding="0dp"
         android:gravity="center"
-        android:text="cuideSe"
-        android:textColor="@color/green"
+        android:text="SugarZer0"
+        android:textAlignment="center"
+        android:textColor="@color/primary_orange"
         android:textSize="34sp"
-        android:textStyle="bold"
+        android:textStyle="bold|italic"
+        app:drawableStartCompat="@drawable/ic_baseline_water_drop_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,7 +35,7 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvCuideSe" />
+        app:layout_constraintTop_toBottomOf="@+id/tvLogo" />
 
     <EditText
         android:id="@+id/etEmailCad"
@@ -85,6 +88,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:background="@drawable/my_border"
         android:onClick="cadastro"
         android:text="Cadastrar"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -98,8 +102,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:onClick="redirecionarParaLogin"
-        android:text="Já tem cadastro? Efetuar login"
-        android:textColor="@color/green"
+        android:text="@string/txtEfetuarLogin"
+        android:textColor="@color/primary_orange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnTelaCad" />

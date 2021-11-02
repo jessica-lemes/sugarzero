@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Projetos\\CuideSe\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
+            "outputFile": "C:\\Projetos\\AppSugarZero\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\jessi\\.gradle\\caches\\transforms-2\\files-2.1\\ba1d9cdeace3374a3d1f11cb4c3f7039\\core-1.6.0\\res\\values-bn\\values-bn.xml",
